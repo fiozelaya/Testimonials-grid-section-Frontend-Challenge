@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/fiozelaya/Testimonials-grid-section-Frontend-Challenge)
-- Live Site URL: [Add live site URL here](https://fiozelaya.github.io/Testimonials-grid-section-Frontend-Challenge/)
+- Solution URL: [here!](https://github.com/fiozelaya/Testimonials-grid-section-Frontend-Challenge)
+- Live Site URL: [here!](https://fiozelaya.github.io/Testimonials-grid-section-Frontend-Challenge/)
 
 ## My process
 
