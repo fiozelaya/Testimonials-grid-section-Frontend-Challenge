@@ -1,6 +1,6 @@
-# Frontend Mentor - Single price grid component solution
+# Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -16,6 +16,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -23,14 +24,12 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action
-
+- View the optimal layout for the site depending on their device's screen size
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/fiozelaya/Pricing-Card-Frontend-Mentor-Challenge)
-- Live Site URL: [Add live site URL here](https://fiozelaya.github.io/Pricing-Card-Frontend-Mentor-Challenge/)
+- Solution URL: [Add solution URL here](https://github.com/fiozelaya/Testimonials-grid-section-Frontend-Challenge)
+- Live Site URL: [Add live site URL here](https://fiozelaya.github.io/Testimonials-grid-section-Frontend-Challenge/)
 
 ## My process
 
@@ -40,30 +39,23 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
+- First mobile workflow
 
 ### What I learned
 
-By completing this challenge, I managed to enforce the things I am starting to learn about HTML and CSS. 
+The main goal for this challenge was to learn more about web responsiveness and how to do it! 
 
-There is one thing I'd like to highlight about the process. 
-
-This snippet right here is something extremely important and interesting that I learned. The HTML "reset". This reset is very useful to style our document despite of the browser we are using.
+The following code snippet is how I managed to layout the site depending on the device. In this case, I used a first mobile workflow, which means I first focus on how the site is going to look on a mobile device, and then, on a desktop. Therefore, I used a media query to indicate that when the minimun width of the site is 500px, the containers' styles are going to change to make it optimal if the site is being viewed on a deskopt. 
 ```css
-html{
-    box-sizing: border-box;
-}
-
-*, *:before, *::after{
-    box-sizing: inherit;
+@media (min-width: 500px){
+  ...
 }
 ```
+The complete code can be checked in the css file "styles" for more details about how I approached this.
 
 ### Continued development
 
-In future projects I would like to learn more about the CSS reset and which ones are better. I'd also like to look further into web responsiveness, which is something extremely important!
-
-Lastly, I'd like to work more with JS and master HTML and CSS, as well as improving my skills in general and learn about frameworks like node.js, react.js, bootstrap, etc.
+Due to the fact that I'm just starting out, I'm well aware that there are so many things that could be better! So, in future projects I want to dig deeper into Flex and CSS grids, as well as improving my skills to approach future challenges in a better and more optimal way.
 
 
 ### Useful resources
