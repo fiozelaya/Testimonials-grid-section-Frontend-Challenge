@@ -1,0 +1,149 @@
+html{
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 81%);
+    font-size: 13px;
+    font-weight: 500px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+*, *:before, *::after{
+    box-sizing: inherit;
+}
+
+body div{
+    border-radius: 8px;
+    padding: 3%;
+    
+}
+
+.leftTestimonial{
+    display: flex;
+}
+
+.longTestimonial{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5{
+    display: flex;
+    padding: 15px;
+    margin: 2%;
+}
+
+.grid1{
+    background-color: hsl(263, 55%, 52%);
+}
+
+.grid2{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.grid4{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.grid1, .grid2 , .grid4{
+    color: white;
+}
+
+.grid3, .grid5{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+}
+
+img{
+    position: absolute;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    align-self:flex-start;
+}
+
+.name{
+    margin: 0;
+    padding-left: 60px;
+}
+
+.description{
+    margin: 0;
+    padding-left: 60px;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.title{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.testimonial{
+    margin-top: 1px;
+    opacity: 0.6;
+}
+
+
+@media (min-width: 500px){
+    .container{
+        flex-direction: row;
+        width: 85%;
+        height: 50%;
+        margin: 0 auto;
+        
+    }
+
+    .leftTestimonial{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 80%;
+        justify-content: space-evenly;
+        padding: 0;
+        
+    }
+
+    .longTestimonial{
+        flex-direction: row;
+        flex-basis: 20%;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+
+    .name, .description{
+        font-size: 0.8rem;
+    }
+
+    .title{
+        font-size: 1rem;
+    }
+    
+    .testimonial{
+        font-size: 0.9rem;
+    }
+
+    .grid1, .grid4{
+        flex-basis: 60%;
+        margin-bottom: 10px;
+    }
+    
+    .grid2, .grid3{
+        flex-basis: 30%;
+        margin-bottom: 10px;
+    }
+    
+    .grid5{
+        flex-basis: 100%;
+        margin: 10px;
+    }
+}
