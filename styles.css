@@ -10,10 +10,14 @@ html{
     box-sizing: inherit;
 }
 
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
 body div{
     border-radius: 8px;
-    padding: 3%;
-    
 }
 
 .leftTestimonial{
@@ -97,8 +101,9 @@ img{
 @media (min-width: 500px){
     .container{
         flex-direction: row;
-        width: 85%;
-        height: 50%;
+        width: 80vw;
+        height: 100vh;
+        place-items: center;
         margin: 0 auto;
         
     }
